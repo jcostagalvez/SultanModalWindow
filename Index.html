@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="ModalWindow.css">
+    <title>Document</title>
+</head>
+<body>
+
+   <section>
+
+    <div class="header">
+        <h1 class="header__title"> sultan </h1>
+        <h2 class="header__subtitle">el gato</h2>
+    </div>
+
+    <div class="section1">
+        <div class="buttonContainer">
+            <button id="modalButton" type="button" class="buttonContainer__modalButton">Infomación Sobre Mi</button>
+        </div>
+    </div>
+    
+    
+    <div id="overlayLayout" class="noOverlayLayout">
+
+        <div Id="ModalWindow" class="modalWindow">
+            <button class="imgbutton" type="button" id="modalButtonClose">X</button>
+            <div class="modalWindow__header">
+                <div class="modalWindow__header--imgcontainer">
+                    <img class="imgPopUp" src="./img/Sultan-hidden.png" alt="SultanWindow">
+                </div>
+            </div>
+
+            <div class="modalWindow__body">
+                <div id="info" class="modalWindow__body_info"> 
+                    <h3> Mis aficciones </h3>
+                            <p> Comer Snacks de salmón </p> 
+                            <p> Cazar bichitos </p>
+                            <p> Jugar al escondite </p> 
+                            <p> El capo del coche de mama </p> 
+                    <div class="modalWindow__body_info_Link">
+                        <i class="fa fa-instagram"> </i>
+                        <a class="modalWindow__body_info_Link_InstaGramLink" href="https://www.instagram.com/sulti_cg/">Instagram</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+     </div>
+
+
+   </section> 
+</body>
+
+<script src="index.js"></script>
+</html>
